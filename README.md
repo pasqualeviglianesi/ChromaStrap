@@ -13,6 +13,8 @@
 
 [Demo](https://pasqualeviglianesi.github.io/chromastrap/)
 
+---
+
 ## Key Features
 
 - **Native integration:** no new syntax. Use `.btn-neon-pink` just like you use `.btn-primary`.
