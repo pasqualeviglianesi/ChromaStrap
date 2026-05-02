@@ -11,7 +11,7 @@
 
 ## Demo
 
-[Demo](https://pasqualeviglianesi.github.io/chromastrap/)
+[Demo](https://pasqualeviglianesi.github.io/ChromaStrap/)
 
 ---
 
