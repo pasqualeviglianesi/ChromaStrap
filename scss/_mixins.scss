@@ -1,0 +1,25 @@
+@each $name, $color in $custom-colors {
+  .text-#{$name} { 
+    color: $color !important; 
+  }
+
+  .bg-#{$name} { 
+    background-color: $color !important; 
+  }
+
+  .btn-#{$name} {
+    background-color: $color;
+    border-color: $color;
+    color: if(lightness($color) > 60, #000, #fff);
+
+    &:hover {
+      background-color: darken($color, 10%);
+      border-color: darken($color, 10%);
+      color: if(lightness($color) > 60, #000, #fff);
+    }
+  }
+
+  .border-#{$name} { 
+    border-color: $color !important; 
+  }
+}
